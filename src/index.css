@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+@layer components {
+  .center_div {
+    @apply flex items-center justify-center flex-wrap;
+  }
+  .center_div_col {
+    @apply flex flex-col;
+  }
+  .animated_border {
+    @apply absolute w-[80%] transition-all duration-1000 ease-in-out border border-primary_color;
+  }
+  .input_topdiv {
+    @apply bg-[#DFDFDF] rounded-[10px] center_div pl-2 w-[400px];
+  }
+  .antd_input {
+    @apply w-[350px] h-[50px] bg-[#DFDFDF] placeholder:text-label_color focus:border-none hover:border-none;
+  }
+  .heading_text {
+    @apply lg:text-6xl md:text-5xl font-bold text-lg text-left w-screen  text-light_gray;
+  }
+}
+
+.play_font {
+  font-family: "Audiowide", sans-serif !important;
+}
+
+.play_sub_font {
+  font-family: "Bruno Ace", sans-serif !important;
+}
