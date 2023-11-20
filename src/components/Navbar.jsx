@@ -15,22 +15,22 @@ function Navbar() {
     {
       id: 2,
       name: "Online Order",
-      link: "/order",
+      link: "#",
     },
     {
       id: 3,
       name: "Dining",
-      link: "/dining",
+      link: "#",
     },
     {
       id: 4,
       name: "Call for order",
-      link: "/callorder",
+      link: "#",
     },
     {
       id: 5,
       name: "Take Away",
-      link: "/takeaway",
+      link: "#",
     },
   ];
 

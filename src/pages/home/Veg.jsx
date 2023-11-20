@@ -7,7 +7,7 @@ import {
 } from "swiper/modules";
 import { SwiperSlide, Swiper } from "swiper/react";
 
-const NonVeg = () => {
+const VegFoods = () => {
   return (
     <div className="w-screen lg:min-h-[90vh] flex lg:flex-row justify-center items-center flex-nowrap flex-col-reverse lg:pt-0 pt-10">
       <div className="lg:w-[60vw] w-screen relative lg:h-[80vh] center_div">
@@ -96,4 +96,4 @@ const NonVeg = () => {
   );
 };
 
-export default NonVeg;
+export default VegFoods;

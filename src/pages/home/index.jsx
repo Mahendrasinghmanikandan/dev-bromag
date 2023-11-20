@@ -4,10 +4,10 @@ import Banner from "./Banner";
 import TopVideos from "./TopVideos";
 import NonVeg from "./NonVeg";
 import CustomerReview from "./CustomerReview";
-import VegFoods from "./vegFoods";
 import Fixedbanner from "./Fixedbanner";
 import PlayContext from "./PlayContext";
 import Advertisement from "./Advertisement";
+import VegFoods from "./Veg";
 import Locations from "./Locations";
 
 const Home = () => {

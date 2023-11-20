@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Footer() {
   // const navigate = useNavigate();
   return (
-    <div className="bg-black py-4 lg:h-[53vh] pl-7 text-white ">
+    <div className="bg-black py-4 lg:h-[53vh] pl-7 text-white rounded-t-[50px]">
       <div className="pl-2 lg:pl-0 !items-start justify-start">
         <img src={"/assets/logo/logo.png"} className="w-20" />
       </div>
